@@ -33,7 +33,7 @@ export default function Home({ navigation }) {
     });
  
 
-    const serversend = React.useCallback((code) => {
+    function serversend (code) {
         console.log(code);
         if (code) {
             
